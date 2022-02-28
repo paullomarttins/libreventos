@@ -1,2 +1,2 @@
-release: python ./manager.py migrate
+release: python ./libreventos/manager.py migrate
 web: gunicorn libreventos.wsgi --log-file -
